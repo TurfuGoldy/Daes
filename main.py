@@ -177,7 +177,7 @@ def init():
 			init()
 
 	logo()
-	print(f"{Fore.LIGHTMAGENTA_EX}Do you want to use proxies? (y/n)")
+	print(f"{Fore.LIGHTMAGENTA_EX}Do you want to use proxies? (Recommanded, y/n)")
 	use_proxies = input("\n~# ").lower()
 
 	if spam_webhooks == "y":
